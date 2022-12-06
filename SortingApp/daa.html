@@ -1,0 +1,61 @@
+
+<html>
+    <head>
+        <title>SORTING APP
+            
+        </title>
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+<body>
+    <br>
+    
+<h7 style="font-size: 52px;padding-left: 40%;padding-top: 20px;text-decoration: underline;;"><b>SORTING APP</b></h7>
+<br>
+
+<br>
+
+    <div class="header">
+
+        <button id="bt1" value='new_arr' class="dis" onclick="generate()"><b>Generate New Array</b></button>
+        <!-- //slider bar -->
+        <input id="slider1" class="inp" type="number" min="10" max="100" value="5" />
+        
+        <button id="bt" class="bubble dis" value='1' onclick="pre_sort(1)"><b>Selection Sort</b></button>
+        <button id="bt" class="quick dis" value='2' onclick="pre_sort(2)"><b>Bubble Sort</b></button>
+        
+        <button id="bt_sort" class="dis" value='sort' onclick="sort()"><b>Sort</b></button>
+
+    </div>
+    <hr>
+    <hr>
+
+    
+    <div class="box">
+        <div class="opt">
+            <h4 > Array</h4>
+            <p id="disp"></p>
+        </div>
+            <hr>
+            <hr>
+
+    
+        <div class="opt">
+            <h4>Sorted Array</h4>
+            <p id="disp2"></p>
+        </div>
+           
+       
+        
+    </div>
+    
+    <!-- javascript  -->
+    <script src="index.js"></script>
+
+    <br>
+    <p>The Time complexity of Selection Sort is : O(N^2)</p>
+    <p>The Time complexity of Bubble Sort is: O(N^2)</p>
+</body>
+
+
+</html>
